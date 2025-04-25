@@ -65,7 +65,6 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
-`
                 python3 helloworld.py
                 '''
             }
